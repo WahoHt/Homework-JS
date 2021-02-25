@@ -1,0 +1,26 @@
+#images{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: none;
+}
+
+#ball{
+    animation: 1s linear 0s normal none infinite running rot;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin:10px;
+    transition: margin-left 1s;
+    background: linear-gradient(90deg, rgb(32, 185, 45) 0%, rgb(141, 10, 17) 35%, rgba(0,212,255,1) 100%);
+}
+#ball:hover{
+    transform: rotate(0deg);
+    transform: rotate(360deg);
+}
+#btn{
+    background-color: #D0AC7E;
+    border-radius: 8px;
+    width: 100px;
+    font: Arial,sans-serif;
+}
